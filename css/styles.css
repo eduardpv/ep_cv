@@ -135,6 +135,15 @@
   border-bottom: 2px solid #000;
 }
 
+.contact-block p a {
+  color: #000;
+  text-decoration: none;
+}
+
+.contact-block p a:hover {
+  text-decoration: underline;
+}
+
 /* ------------------------------ EXPERIENCE BLOCK ------------------------------ */
 
 .experience-block {
@@ -238,5 +247,9 @@
   .container {
     max-width: 100%;
     margin: 0;
+  }
+
+  .contact-block p a:hover {
+    text-decoration: none;
   }
 }
